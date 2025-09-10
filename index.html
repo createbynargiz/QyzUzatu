@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding B & N</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/png" href="img/rings.png">
+</head>
+<body>
+    <section id="pageOne">
+        <button id="music-btn" class="pulse-text">ӘУЕНДІ ҚОСУ</button>
+        <audio id="music" src="newimg/music.mp3"></audio>
+
+        <img class="ornament-top" src="newimg/ornament — копия.png" alt="">
+        <p>Nargiz</p>
+        <p id="uzatu" class="box">Qyz Uzatu</p>
+        <img class="ornament-bottom" src="newimg/ornament — копия (2).png" alt="">
+    </section>
+    <section id="pageTwo">
+        <img class="ornament-top" src="newimg/ornament — копия.png">
+        <p class="box">Құрметті<br> ағайын-туыс, бауырлар,<br> құда-жекжат, <br> нағашы-жиен, бөлелер,<br> дос-жаран!</p>
+        <p class="bold">Сіздерді Аяулы Қызымыз</p>
+        <h3 class="pulse-text">Наргиздің</h3>
+        <p class="box">Ұзату тойына <br> арналған ақ <br> дастарханымыздың <br> қадірлі қонағы <br> болуға шақырамыз!</p>
+        <p class="bold">Ізгі ниетпен,</p>
+        <p class="bold pulse-text">Нұржан-Маржан</p>
+        <img class="ornament-bottom" src="newimg/ornament — копия (2).png" alt="">
+    </section>
+    <section id="pageThree">
+        <img class="ornament-top" src="newimg/ornament — копия.png">
+        <h3 class="box">Той салтанаты:</h3>
+        <div class="data">
+            <div class="first">ҚАЗАН</div>
+            <div class="second pulse-text">27</div>
+            <div class="year">2025</div>
+        </div>
+        <div id="calendare" width="350px"><img src="newimg/calendare.png" alt="" width="300px">
+            <div id="incalendare"><img class="pulse-text" src="img/newheart-removebg-preview.png" alt="" width="70px"></div>     
+        </div>
+        <p class="bold box">Басталуы 14:00-де </p>
+        <img class="ornament-bottom" src="newimg/ornament — копия (2).png" alt="">
+    </section>
+    <section id="pageFour">
+        <img class="ornament-top" src="newimg/ornament — копия.png">
+        <h3 class="box">Өтетін орны:</h3>
+        <p> Қарағанды қаласы, <br> Таттимбета көшесі, 18а <br><span class="bold ">"Toi Grand"</span> <br> Мейрамханасы <br> Жаңа залы</p>
+        <img class="pulse-text" src="newimg/ptichka.png" alt="" width="200px">
+        <p class="box">Сізге жетуге ыңғайлы <br> болу үшін төмендегі <br> 2-Гис <br> картасын қолданыңыз</p>
+        <a href="https://go.2gis.com/AwBfM" target="_blank">
+            <button><img src="img/i-removebg-preview.png" alt="" width="70px"></button>
+        </a>
+        <img class="ornament-bottom" src="newimg/ornament — копия (2).png" alt="">
+    </section>
+    <section id="pageFive">
+        <h3 class="box">Тойға дейін:</h3>
+        <div class="timer">
+            <div class="time-block">
+                <span id="days">00</span>
+                <div>Күн</div>
+            </div>
+            <div class="time-block">
+                <span id="hours">00</span>
+                <div>Сағат</div>
+            </div>
+            <div class="time-block">
+                <span id="minutes">00</span>
+                <div>Минут</div>
+            </div>
+            <div class="time-block">
+                <span id="seconds">00</span>
+                <div>Секунд</div>
+            </div>
+        </div>
+    </section>
+    <section id="pageSix">
+        <div><video autoplay muted loop playsinline class="video" src="newimg/newvideo.mp4" type="video/mp4"></video></div>
+        <img class="ornament-top" src="newimg/ornament — копия — копия.png">
+        <h3 class="box">Тойға қатысуыңызды растауыңызды сұраймыз:</h3>
+        <form id="post-info">
+            <label id="full-name-text" for="full-name">Аты-жөніңіз:</label>
+            <input type="text" required id="full-name" name="name">
+                
+            <p id="info-p">Тойға келесіз бе?</p>
+            <div>
+                <input type="radio" id="yes-option" name="coming" value="Әрине келемін" class="answers">
+                <label class="answer" for="yes-option">Әрине келемін</label><br>
+
+                <input type="radio" id="yesWcouple-option" name="coming" value="Жұбайыммен келемін" class="answers">
+                <label class="answer" for="yesWcouple-option">Жұбайыммен келемін</label><br>
+
+                <input type="radio" id="no-option" name="coming" value="Өкінішке орай келе алмаймын" class="answers">
+                <label class="answer" for="no-option">Өкінішке орай келе алмаймын</label><br>
+            </div>
+            <button class="pulse-text" id="info-button" type="submit">ЖІБЕРУ</button>
+            </form>
+    </section>
+</body>
+</html>
